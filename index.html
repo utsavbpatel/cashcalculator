@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="heading-container">
+            <h2>Cash Calculator</h2>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">2000</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">500</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">200</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">100</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">50</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">20</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">10</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">5</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">2</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="amount-container">
+            <p class="amountValue">1</p>
+            <p>*</p>
+            <input type="number" name="amount" class="amount" placeholder="0" onchange="calculate()">
+            <p>=</p>
+            <p class="result">0</p>
+        </div>
+        <div class="total-container">
+            <p>Total</p>
+            <p>=</p>
+            <P id="finalResult">0</P>
+        </div>
+        <div class="button-container">
+            <button onclick="clearData()">Clear</button>
+        </div>
+
+        <div class="footer-container">
+            <p>Cash Calculator - A Project By Utsav Patel</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
